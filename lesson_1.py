@@ -4,7 +4,7 @@
 
 # # -----lets start learning python.-----
 
-# # --->>>>Basics– Variables, Data Types, Input/Output, Loops, Conditionals
+''' Basics– Variables, Data Types, Input/Output, Loops, Conditionals'''
 
 # # ---Comments in python--- 
 # # comments are ignored by python interpreter.
