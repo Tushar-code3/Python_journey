@@ -1,7 +1,7 @@
 
 
 
-"""-------------------------------------Functions, Lists, Tuples, Dictionaries, Sets-------------------------"""
+"""-------------------------------------Functions, Lists, Tuples, Dictionaries, Sets  with comprehension -------------------------"""
 
 
 
@@ -225,6 +225,19 @@
 #     print("list is sorted")
 
 
+#------------ list comprehension -----------------
+
+# result = []
+
+# for item in data:                               # normal loop 
+#     if condition:
+#         result.append(expression)
+
+
+
+# result = [expression for item in data if condition]         # list comprehension
+# print (result)
+
 
 
 # =-----------------Tuple-----------------=
@@ -359,8 +372,25 @@
 # print(t)
 
 
+# --------set comprehension------
 
-# # ------------------------------dictionary---------------------------------------------------==============================-
+# numbers = [1,2,2,3,3,4]
+
+
+
+# unique = set()
+# for i in numbers:                #normal 
+#     unique.add(i)
+
+
+
+
+# unique = {i for i in numbers}            comprehension
+
+# print(unique)
+
+
+# # ------------------------------dictionary--------------------------------------
 
 # # Before starting we need to understand some of the terminology.
 
@@ -434,6 +464,21 @@
 # d2=d.items()
 # print(d2)
 
+
+
+#  ---------------Dictionary comprehension---------
+
+# square = {}
+# for i in range(1,6):
+#     square[i] = i*i                    # normal way
+
+# print(square)
+
+# in comprehension way--
+
+# square = {i: i*i for i in range(1,6)}
+
+# print(square)
 
 
 # --now some questions on dictionary---
